@@ -3,6 +3,6 @@ function getFormvalue() {
 let inps = document.querySelectorAll("input");
 let fname = inps[0].value;
 let lname = inps[1].value;
-let fullname = fName+lName;
+let fullname = fname+" "+lname;
 	alert(fullname); 
 }
